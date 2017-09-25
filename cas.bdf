@@ -73,7 +73,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 432 -56 448 112)
+	(rect 464 -56 480 112)
 	(text "INPUT" (rect 5 125 16 166)(font "Arial" (font_size 6))(vertical))
 	(text "cin" (rect 2 5 16 30)(font "Arial" )(vertical))
 	(pt 8 168)
@@ -232,18 +232,6 @@ agreement for further details.
 	(pt 552 208)
 )
 (connector
-	(pt 496 216)
-	(pt 496 208)
-)
-(connector
-	(pt 496 208)
-	(pt 440 208)
-)
-(connector
-	(pt 440 112)
-	(pt 440 208)
-)
-(connector
 	(pt 512 336)
 	(pt 512 344)
 )
@@ -258,4 +246,16 @@ agreement for further details.
 (connector
 	(pt 528 336)
 	(pt 528 352)
+)
+(connector
+	(pt 496 216)
+	(pt 496 208)
+)
+(connector
+	(pt 496 208)
+	(pt 472 208)
+)
+(connector
+	(pt 472 112)
+	(pt 472 208)
 )
