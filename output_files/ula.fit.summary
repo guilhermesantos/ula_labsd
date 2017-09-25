@@ -1,16 +1,16 @@
-Fitter Status : Successful - Sat Sep 09 17:26:24 2017
+Fitter Status : Successful - Sun Sep 24 23:06:10 2017
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 Revision Name : ula
-Top-level Entity Name : 8x8multiplier
+Top-level Entity Name : 8bitadder
 Family : Arria II GX
 Device : EP2AGX45CU17I3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 92 / 36,100 ( < 1 % )
+    Combinational ALUTs : 18 / 36,100 ( < 1 % )
     Memory ALUTs : 0 / 18,050 ( 0 % )
     Dedicated logic registers : 0 / 36,100 ( 0 % )
 Total registers : 0
-Total pins : 24 / 176 ( 14 % )
+Total pins : 26 / 176 ( 15 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 2,939,904 ( 0 % )
 DSP block 18-bit elements : 0 / 232 ( 0 % )

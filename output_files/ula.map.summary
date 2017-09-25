@@ -1,20 +1,20 @@
-Analysis & Synthesis Status : Failed - Sun Sep 24 17:14:42 2017
+Analysis & Synthesis Status : Successful - Sun Sep 24 23:05:46 2017
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 Revision Name : ula
-Top-level Entity Name : 8bitnot
+Top-level Entity Name : 8bitadder
 Family : Arria II GX
-Logic utilization : N/A until Partition Merge
-    Combinational ALUTs : N/A until Partition Merge
-    Memory ALUTs : N/A until Partition Merge
-    Dedicated logic registers : N/A until Partition Merge
-Total registers : N/A until Partition Merge
-Total pins : N/A until Partition Merge
-Total virtual pins : N/A until Partition Merge
-Total block memory bits : N/A until Partition Merge
-DSP block 18-bit elements : N/A until Partition Merge
-Total GXB Receiver Channel PCS : N/A until Partition Merge
-Total GXB Receiver Channel PMA : N/A until Partition Merge
-Total GXB Transmitter Channel PCS : N/A until Partition Merge
-Total GXB Transmitter Channel PMA : N/A until Partition Merge
-Total PLLs : N/A until Partition Merge
-Total DLLs : N/A until Partition Merge
+Logic utilization : N/A
+    Combinational ALUTs : 18
+    Memory ALUTs : 0
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 26
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 18-bit elements : 0
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
+Total DLLs : 0

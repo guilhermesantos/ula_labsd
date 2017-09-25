@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 352 184 520 200)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "b[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "b[0..7]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -38,9 +38,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 520 384 688 400)
+	(rect 432 384 600 400)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "a[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "a[0..7]" (rect 5 0 62 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -1709,9 +1709,16 @@ agreement for further details.
 	(pt 1584 1160)
 )
 (connector
+	(text "a[0..7]" (rect 620 376 677 390)(font "Arial" ))
+	(pt 600 392)
+	(pt 640 392)
+	(bus)
+)
+(connector
 	(text "o[0..7]" (rect 1680 360 1737 374)(font "Arial" ))
 	(pt 1744 376)
 	(pt 1672 376)
+	(bus)
 )
 (junction (pt 872 376))
 (junction (pt 872 488))

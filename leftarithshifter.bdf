@@ -1643,16 +1643,8 @@ agreement for further details.
 	(pt 704 424)
 )
 (connector
-	(pt 984 208)
-	(pt 984 296)
-)
-(connector
 	(pt 984 296)
 	(pt 984 408)
-)
-(connector
-	(pt 1200 208)
-	(pt 1200 296)
 )
 (connector
 	(pt 1200 296)
@@ -1753,6 +1745,22 @@ agreement for further details.
 	(pt 576 112)
 	(pt 544 112)
 	(bus)
+)
+(connector
+	(text "a[0..7]" (rect 562 296 619 310)(font "Arial" ))
+	(pt 544 312)
+	(pt 576 312)
+	(bus)
+)
+(connector
+	(text "q[1]" (rect 968 252 982 285)(font "Arial" )(vertical))
+	(pt 984 208)
+	(pt 984 296)
+)
+(connector
+	(text "q[2]" (rect 1184 252 1198 285)(font "Arial" )(vertical))
+	(pt 1200 208)
+	(pt 1200 296)
 )
 (junction (pt 720 296))
 (junction (pt 720 408))
