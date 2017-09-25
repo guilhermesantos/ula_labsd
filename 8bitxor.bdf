@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 248 232 416 248)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "a[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "a[7..0]" (rect 5 0 63 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ agreement for further details.
 	(input)
 	(rect 248 256 416 272)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "b[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "b[7..0]" (rect 5 0 63 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -421,18 +421,6 @@ agreement for further details.
 	(pt 592 704)
 )
 (connector
-	(text "a[0..7]" (rect 424 224 481 238)(font "Arial" ))
-	(pt 416 240)
-	(pt 448 240)
-	(bus)
-)
-(connector
-	(text "b[0..7]" (rect 424 248 481 262)(font "Arial" ))
-	(pt 416 264)
-	(pt 448 264)
-	(bus)
-)
-(connector
 	(text "o[0]" (rect 664 232 697 246)(font "Arial" ))
 	(pt 656 248)
 	(pt 680 248)
@@ -473,7 +461,19 @@ agreement for further details.
 	(pt 680 696)
 )
 (connector
-	(text "o[0..7]" (rect 736 232 793 246)(font "Arial" ))
+	(text "a[7..0]" (rect 424 224 481 238)(font "Arial" ))
+	(pt 416 240)
+	(pt 448 240)
+	(bus)
+)
+(connector
+	(text "b[7..0]" (rect 424 248 481 262)(font "Arial" ))
+	(pt 416 264)
+	(pt 448 264)
+	(bus)
+)
+(connector
+	(text "o[7..0]" (rect 736 232 793 246)(font "Arial" ))
 	(pt 776 248)
 	(pt 728 248)
 	(bus)

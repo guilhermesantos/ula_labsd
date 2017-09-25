@@ -27,15 +27,15 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "d[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "d[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "d[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "d[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "q[0..2]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "q[0..2]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "q[2..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "q[2..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing

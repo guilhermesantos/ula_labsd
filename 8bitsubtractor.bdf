@@ -22,9 +22,9 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 552 400 568 614)
+	(rect 440 400 456 576)
 	(text "INPUT" (rect 0 2 11 43)(font "Arial" (font_size 6))(vertical))
-	(text "b[0..7]" (rect 0 151 14 208)(font "Arial" )(vertical))
+	(text "a[7..0]" (rect 0 110 14 167)(font "Arial" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 12 84)(pt 12 59))
@@ -39,9 +39,9 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect 440 440 456 654)
+	(rect 552 400 568 576)
 	(text "INPUT" (rect 0 2 11 43)(font "Arial" (font_size 6))(vertical))
-	(text "a[0..7]" (rect 0 151 14 208)(font "Arial" )(vertical))
+	(text "b[7..0]" (rect 0 110 14 167)(font "Arial" )(vertical))
 	(pt 8 0)
 	(drawing
 		(line (pt 12 84)(pt 12 59))
@@ -75,7 +75,7 @@ agreement for further details.
 	(output)
 	(rect 424 -256 440 -80)
 	(text "OUTPUT" (rect 0 126 11 175)(font "Arial" (font_size 6))(vertical))
-	(text "o[0..7]" (rect 0 5 14 63)(font "Arial" )(vertical))
+	(text "o[7..0]" (rect 0 29 14 86)(font "Arial" )(vertical))
 	(pt 8 176)
 	(drawing
 		(line (pt 8 176)(pt 8 124))
@@ -95,15 +95,15 @@ agreement for further details.
 	(port
 		(pt 32 184)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 27 97 43 163)(font "Arial" (font_size 8))(vertical))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 27 97 43 163)(font "Arial" (font_size 8))(vertical))
 		(line (pt 32 184)(pt 32 168)(line_width 3))
 	)
 	(port
 		(pt 32 0)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 27 21 43 87)(font "Arial" (font_size 8))(vertical))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 27 21 43 87)(font "Arial" (font_size 8))(vertical))
 		(line (pt 32 0)(pt 32 16)(line_width 3))
 	)
 	(drawing
@@ -125,22 +125,22 @@ agreement for further details.
 	(port
 		(pt 48 184)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 43 97 59 163)(font "Arial" (font_size 8))(vertical))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 43 97 59 163)(font "Arial" (font_size 8))(vertical))
 		(line (pt 48 184)(pt 48 168)(line_width 3))
 	)
 	(port
 		(pt 64 184)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 59 97 75 163)(font "Arial" (font_size 8))(vertical))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 59 97 75 163)(font "Arial" (font_size 8))(vertical))
 		(line (pt 64 184)(pt 64 168)(line_width 3))
 	)
 	(port
 		(pt 32 0)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 27 21 43 87)(font "Arial" (font_size 8))(vertical))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 27 21 43 87)(font "Arial" (font_size 8))(vertical))
 		(line (pt 32 0)(pt 32 16)(line_width 3))
 	)
 	(port
@@ -156,30 +156,24 @@ agreement for further details.
 	(rotate90)
 )
 (symbol
-	(rect 384 168 416 200)
-	(text "GND" (rect 8 16 32 27)(font "Arial" (font_size 6)))
-	(text "inst1" (rect 3 21 44 35)(font "Arial" )(invisible))
+	(rect 384 168 416 184)
+	(text "VCC" (rect 1 5 25 16)(font "Arial" (font_size 6)))
+	(text "inst1" (rect -12 -3 29 11)(font "Arial" )(invisible))
 	(port
 		(pt 16 0)
 		(output)
-		(text "1" (rect 18 0 23 14)(font "Courier New" (bold))(invisible))
-		(text "1" (rect 18 0 23 14)(font "Courier New" (bold))(invisible))
-		(line (pt 16 8)(pt 16 0))
+		(text "1" (rect 19 7 24 21)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 8 -5 13 9)(font "Courier New" (bold))(invisible))
+		(line (pt 16 0)(pt 16 8))
 	)
 	(drawing
-		(line (pt 8 8)(pt 16 16))
-		(line (pt 16 16)(pt 24 8))
-		(line (pt 8 8)(pt 24 8))
+		(line (pt 24 8)(pt 8 8))
 	)
+	(rotate180)
 )
 (connector
 	(pt 560 352)
 	(pt 560 400)
-	(bus)
-)
-(connector
-	(pt 448 128)
-	(pt 448 440)
 	(bus)
 )
 (connector
@@ -217,4 +211,9 @@ agreement for further details.
 (connector
 	(pt 400 168)
 	(pt 400 152)
+)
+(connector
+	(pt 448 128)
+	(pt 448 400)
+	(bus)
 )

@@ -22,9 +22,9 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 384 136 552 152)
+	(rect 360 136 528 152)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "d[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "d[7..0]" (rect 5 0 63 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ agreement for further details.
 	(output)
 	(rect 816 136 992 152)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "q[0..2]" (rect 90 0 147 14)(font "Arial" ))
+	(text "q[2..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -273,4 +273,10 @@ agreement for further details.
 	(text "d[7]" (rect 658 408 691 422)(font "Arial" ))
 	(pt 632 424)
 	(pt 680 424)
+)
+(connector
+	(text "d[7..0]" (rect 531 128 588 142)(font "Arial" ))
+	(pt 528 144)
+	(pt 568 144)
+	(bus)
 )

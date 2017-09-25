@@ -24,7 +24,7 @@ agreement for further details.
 	(input)
 	(rect 104 160 272 176)
 	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
-	(text "a[0..7]" (rect 5 0 63 14)(font "Arial" ))
+	(text "a[7..0]" (rect 5 0 63 14)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -40,7 +40,7 @@ agreement for further details.
 	(output)
 	(rect 584 160 760 176)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "o[0..7]" (rect 90 0 147 14)(font "Arial" ))
+	(text "o[7..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))

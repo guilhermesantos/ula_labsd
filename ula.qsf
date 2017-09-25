@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Arria II GX"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY 8bitadder
+set_global_assignment -name TOP_LEVEL_ENTITY rightlogicshifter
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:34:49  SEPTEMBER 05, 2017"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.1.0
@@ -80,6 +80,9 @@ set_global_assignment -name BDF_FILE luz1.bdf
 set_global_assignment -name BDF_FILE luz0.bdf
 set_global_assignment -name BDF_FILE Hexa.bdf
 set_global_assignment -name BDF_FILE Display.bdf
+set_global_assignment -name BDF_FILE 8x8multiplier2.bdf
+set_global_assignment -name BDF_FILE ula_com_memoria.bdf
+set_global_assignment -name BDF_FILE 8bitregister.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
