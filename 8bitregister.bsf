@@ -27,8 +27,8 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "inp[0..7]" (rect 0 0 84 16)(font "Arial" (font_size 8)))
-		(text "inp[0..7]" (rect 21 27 105 43)(font "Arial" (font_size 8)))
+		(text "inp[7..0]" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "inp[7..0]" (rect 21 27 105 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
@@ -55,8 +55,8 @@ agreement for further details.
 	(port
 		(pt 208 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 121 27 187 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 121 27 187 43)(font "Arial" (font_size 8)))
 		(line (pt 208 32)(pt 192 32)(line_width 3))
 	)
 	(drawing

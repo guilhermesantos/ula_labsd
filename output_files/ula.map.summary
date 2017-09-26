@@ -1,14 +1,14 @@
-Analysis & Synthesis Status : Successful - Mon Sep 25 01:57:29 2017
+Analysis & Synthesis Status : Successful - Tue Sep 26 17:24:36 2017
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 Revision Name : ula
-Top-level Entity Name : rightlogicshifter
+Top-level Entity Name : ula
 Family : Arria II GX
 Logic utilization : N/A
-    Combinational ALUTs : 16
+    Combinational ALUTs : 113
     Memory ALUTs : 0
     Dedicated logic registers : 0
 Total registers : 0
-Total pins : 24
+Total pins : 28
 Total virtual pins : 0
 Total block memory bits : 0
 DSP block 18-bit elements : 0

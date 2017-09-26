@@ -72,7 +72,7 @@ agreement for further details.
 	(output)
 	(rect 960 112 1136 128)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
-	(text "out[7..0]" (rect 90 0 164 14)(font "Arial" ))
+	(text "o[7..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -163,8 +163,8 @@ agreement for further details.
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -257,22 +257,22 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -286,22 +286,22 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -315,22 +315,22 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -351,15 +351,15 @@ agreement for further details.
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -373,22 +373,22 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
@@ -402,105 +402,27 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
 		(pt 0 48)
 		(input)
-		(text "a[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "a[0..7]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "a[7..0]" (rect 21 43 87 59)(font "Arial" (font_size 8)))
 		(line (pt 0 48)(pt 16 48)(line_width 3))
 	)
 	(port
 		(pt 184 32)
 		(output)
-		(text "o[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "o[0..7]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "o[7..0]" (rect 97 27 163 43)(font "Arial" (font_size 8)))
 		(line (pt 184 32)(pt 168 32)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 168 80))
 	)
-)
-(symbol
-	(rect 808 64 920 160)
-	(text "LPM_MUX" (rect 23 0 113 18)(font "Arial" (font_size 10)))
-	(text "inst14" (rect 3 84 52 98)(font "Arial" ))
-	(port
-		(pt 0 48)
-		(input)
-		(text "data[LPM_SIZE-1..0][LPM_WIDTH-1..0]" (rect 6 33 336 49)(font "Arial" (font_size 8)))
-		(text "data[][]" (rect 6 33 81 49)(font "Arial" (font_size 8)))
-		(line (pt 0 48)(pt 44 48)(line_width 3))
-	)
-	(port
-		(pt 0 64)
-		(input)
-		(text "clock" (rect 6 51 53 67)(font "Arial" (font_size 8)))
-		(text "clock" (rect 6 51 53 67)(font "Arial" (font_size 8)))
-		(line (pt 0 64)(pt 44 64))
-	)
-	(port
-		(pt 0 32)
-		(input)
-		(text "aclr" (rect 6 19 43 35)(font "Arial" (font_size 8)))
-		(text "aclr" (rect 6 19 43 35)(font "Arial" (font_size 8)))
-		(line (pt 0 32)(pt 44 32))
-	)
-	(port
-		(pt 56 96)
-		(input)
-		(text "sel[LPM_WIDTHS-1..0]" (rect 59 80 247 96)(font "Arial" (font_size 8)))
-		(text "sel[]" (rect 59 80 106 96)(font "Arial" (font_size 8)))
-		(line (pt 56 96)(pt 56 80)(line_width 3))
-	)
-	(port
-		(pt 0 80)
-		(input)
-		(text "clken" (rect 6 67 53 83)(font "Arial" (font_size 8)))
-		(text "clken" (rect 6 67 53 83)(font "Arial" (font_size 8)))
-		(line (pt 0 80)(pt 44 80))
-	)
-	(port
-		(pt 112 56)
-		(output)
-		(text "result[LPM_WIDTH-1..0]" (rect 75 41 282 57)(font "Arial" (font_size 8)))
-		(text "result[]" (rect 75 41 138 57)(font "Arial" (font_size 8)))
-		(line (pt 68 56)(pt 112 56)(line_width 3))
-	)
-	(parameter
-		"LPM_PIPELINE"
-		"0"
-		"Output latency in clock cycles - requires use of optional clock"
-		"0" "1" "2" "3" "4" 
-	)
-	(parameter
-		"LPM_SIZE"
-		"14"
-		"Number of inputs per MUX, any integer > 1"
-		" 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
-	)
-	(parameter
-		"LPM_WIDTH"
-		"8"
-		"Number of MUXes, any integer > 0"
-		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
-	)
-	(parameter
-		"LPM_WIDTHS"
-		"CEIL(LOG2(LPM_SIZE))"
-		"Width of sel[] port"
-		"CEIL(LOG2(LPM_SIZE))" 
-	)
-	(drawing
-		(line (pt 44 88)(pt 44 16))
-		(line (pt 68 72)(pt 68 32))
-		(line (pt 44 16)(pt 68 32))
-		(line (pt 44 88)(pt 68 72))
-	)
-	(annotation_block (parameter)(rect 920 -48 1292 57))
 )
 (symbol
 	(rect 352 80 536 176)
@@ -647,6 +569,84 @@ agreement for further details.
 		(line (pt 24 24)(pt 8 24))
 	)
 	(rotate180)
+)
+(symbol
+	(rect 808 64 920 160)
+	(text "LPM_MUX" (rect 23 0 113 18)(font "Arial" (font_size 10)))
+	(text "inst16" (rect 3 84 52 98)(font "Arial" ))
+	(port
+		(pt 0 48)
+		(input)
+		(text "data[LPM_SIZE-1..0][LPM_WIDTH-1..0]" (rect 6 33 336 49)(font "Arial" (font_size 8)))
+		(text "data[][]" (rect 6 33 81 49)(font "Arial" (font_size 8)))
+		(line (pt 0 48)(pt 44 48)(line_width 3))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clock" (rect 6 51 53 67)(font "Arial" (font_size 8)))
+		(text "clock" (rect 6 51 53 67)(font "Arial" (font_size 8)))
+		(line (pt 0 64)(pt 44 64))
+	)
+	(port
+		(pt 0 32)
+		(input)
+		(text "aclr" (rect 6 19 43 35)(font "Arial" (font_size 8)))
+		(text "aclr" (rect 6 19 43 35)(font "Arial" (font_size 8)))
+		(line (pt 0 32)(pt 44 32))
+	)
+	(port
+		(pt 56 96)
+		(input)
+		(text "sel[LPM_WIDTHS-1..0]" (rect 59 80 247 96)(font "Arial" (font_size 8)))
+		(text "sel[]" (rect 59 80 106 96)(font "Arial" (font_size 8)))
+		(line (pt 56 96)(pt 56 80)(line_width 3))
+	)
+	(port
+		(pt 0 80)
+		(input)
+		(text "clken" (rect 6 67 53 83)(font "Arial" (font_size 8)))
+		(text "clken" (rect 6 67 53 83)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 44 80))
+	)
+	(port
+		(pt 112 56)
+		(output)
+		(text "result[LPM_WIDTH-1..0]" (rect 75 41 282 57)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 41 138 57)(font "Arial" (font_size 8)))
+		(line (pt 68 56)(pt 112 56)(line_width 3))
+	)
+	(parameter
+		"LPM_PIPELINE"
+		"0"
+		"Output latency in clock cycles - requires use of optional clock"
+		"0" "1" "2" "3" "4" 
+	)
+	(parameter
+		"LPM_SIZE"
+		"14"
+		"Number of inputs per MUX, any integer > 1"
+		" 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+	)
+	(parameter
+		"LPM_WIDTH"
+		"8"
+		"Number of MUXes, any integer > 0"
+		" 1" " 2" " 3" " 4" " 5" " 6" " 7" " 8" " 9" "10" "11" "12" "13" "14" "15" "16" "20" "24" "28" "32" "40" "48" "56" "64" 
+	)
+	(parameter
+		"LPM_WIDTHS"
+		"CEIL(LOG2(LPM_SIZE))"
+		"Width of sel[] port"
+		"CEIL(LOG2(LPM_SIZE))" 
+	)
+	(drawing
+		(line (pt 44 88)(pt 44 16))
+		(line (pt 68 72)(pt 68 32))
+		(line (pt 44 16)(pt 68 32))
+		(line (pt 44 88)(pt 68 72))
+	)
+	(annotation_block (parameter)(rect 920 -48 1292 57))
 )
 (connector
 	(text "mux_in[10][0..7]" (rect 536 1088 668 1102)(font "Arial" ))
@@ -906,12 +906,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(text "mux_in[0..13][7..0]" (rect 686 88 842 102)(font "Arial" ))
-	(pt 808 112)
-	(pt 736 112)
-	(bus)
-)
-(connector
 	(text "sel[3..0]" (rect 848 146 862 220)(font "Arial" )(vertical))
 	(pt 864 160)
 	(pt 864 232)
@@ -945,6 +939,12 @@ agreement for further details.
 	(text "sel[3..0]" (rect 213 160 287 174)(font "Arial" ))
 	(pt 208 176)
 	(pt 232 176)
+	(bus)
+)
+(connector
+	(text "mux_in[13..0][7..0]" (rect 686 88 842 102)(font "Arial" ))
+	(pt 808 112)
+	(pt 736 112)
 	(bus)
 )
 (text "Fazer multiplicacao" (rect 360 760 539 776)(font "Arial" (font_size 8)))

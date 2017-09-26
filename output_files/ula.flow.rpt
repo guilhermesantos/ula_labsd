@@ -1,5 +1,5 @@
 Flow report for ula
-Mon Sep 25 01:58:25 2017
+Tue Sep 26 17:25:31 2017
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -41,17 +41,17 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Flow Summary                                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Flow Status                       ; Successful - Mon Sep 25 01:58:25 2017       ;
+; Flow Status                       ; Successful - Tue Sep 26 17:25:31 2017       ;
 ; Quartus Prime Version             ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                     ; ula                                         ;
-; Top-level Entity Name             ; rightlogicshifter                           ;
+; Top-level Entity Name             ; ula                                         ;
 ; Family                            ; Arria II GX                                 ;
 ; Logic utilization                 ; < 1 %                                       ;
-;     Combinational ALUTs           ; 16 / 36,100 ( < 1 % )                       ;
+;     Combinational ALUTs           ; 113 / 36,100 ( < 1 % )                      ;
 ;     Memory ALUTs                  ; 0 / 18,050 ( 0 % )                          ;
 ;     Dedicated logic registers     ; 0 / 36,100 ( 0 % )                          ;
 ; Total registers                   ; 0                                           ;
-; Total pins                        ; 24 / 176 ( 14 % )                           ;
+; Total pins                        ; 28 / 176 ( 16 % )                           ;
 ; Total virtual pins                ; 0                                           ;
 ; Total block memory bits           ; 0 / 2,939,904 ( 0 % )                       ;
 ; DSP block 18-bit elements         ; 0 / 232 ( 0 % )                             ;
@@ -71,26 +71,25 @@ agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/25/2017 01:57:14 ;
+; Start date & time ; 09/26/2017 17:24:18 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ula                 ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                          ;
-+-------------------------------------+--------------------------------+---------------+-------------------+----------------+
-; Assignment Name                     ; Value                          ; Default Value ; Entity Name       ; Section Id     ;
-+-------------------------------------+--------------------------------+---------------+-------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 33852181305775.150631543405584 ; --            ; --                ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --                ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --                ; --             ;
-; PARTITION_COLOR                     ; 16764057                       ; --            ; rightlogicshifter ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; rightlogicshifter ; Top            ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; rightlogicshifter ; Top            ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --                ; --             ;
-; TOP_LEVEL_ENTITY                    ; rightlogicshifter              ; ula           ; --                ; --             ;
-+-------------------------------------+--------------------------------+---------------+-------------------+----------------+
++---------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                    ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                          ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 33852181305775.150645745804088 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                           ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)         ; <None>        ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                       ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING          ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                         ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                   ; --            ; --          ; --             ;
++-------------------------------------+--------------------------------+---------------+-------------+----------------+
 
 
 +-------------------------------------------------------------------------------------------------------------------------------+
@@ -98,12 +97,12 @@ agreement for further details.
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis      ; 00:00:15     ; 1.0                     ; 838 MB              ; 00:00:38                           ;
-; Fitter                    ; 00:00:11     ; 1.0                     ; 1556 MB             ; 00:00:14                           ;
-; Assembler                 ; 00:00:07     ; 1.0                     ; 843 MB              ; 00:00:06                           ;
-; TimeQuest Timing Analyzer ; 00:00:03     ; 1.0                     ; 927 MB              ; 00:00:03                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 764 MB              ; 00:00:02                           ;
-; Total                     ; 00:00:37     ; --                      ; --                  ; 00:01:03                           ;
+; Analysis & Synthesis      ; 00:00:18     ; 1.0                     ; 844 MB              ; 00:00:40                           ;
+; Fitter                    ; 00:00:13     ; 1.0                     ; 1553 MB             ; 00:00:16                           ;
+; Assembler                 ; 00:00:06     ; 1.0                     ; 846 MB              ; 00:00:06                           ;
+; TimeQuest Timing Analyzer ; 00:00:02     ; 1.0                     ; 926 MB              ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 766 MB              ; 00:00:02                           ;
+; Total                     ; 00:00:40     ; --                      ; --                  ; 00:01:07                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
