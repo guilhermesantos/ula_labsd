@@ -805,7 +805,7 @@ agreement for further details.
 		(pt 48 16)
 		(output)
 		(text "OUT" (rect 32 7 49 21)(font "Courier New" (bold))(invisible))
-		(text "OUT" (rect 32 7 46 21)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 21)(font "Courier New" (bold))(invisible))
 		(line (pt 39 16)(pt 48 16))
 	)
 	(drawing
@@ -858,7 +858,7 @@ agreement for further details.
 		(pt 112 56)
 		(output)
 		(text "result[LPM_WIDTH-1..0]" (rect 75 41 282 57)(font "Arial" (font_size 8)))
-		(text "result[]" (rect 75 41 138 57)(font "Arial" (font_size 8)))
+		(text "result[]" (rect 75 41 150 57)(font "Arial" (font_size 8)))
 		(line (pt 68 56)(pt 112 56)(line_width 3))
 	)
 	(parameter
@@ -1067,39 +1067,6 @@ agreement for further details.
 	(bus)
 )
 (connector
-	(pt 176 256)
-	(pt 184 256)
-)
-(connector
-	(pt 184 256)
-	(pt 200 256)
-)
-(connector
-	(pt 176 104)
-	(pt 184 104)
-)
-(connector
-	(pt 184 104)
-	(pt 200 104)
-)
-(connector
-	(pt 176 -48)
-	(pt 184 -48)
-)
-(connector
-	(pt 184 -48)
-	(pt 208 -48)
-)
-(connector
-	(pt 184 -160)
-	(pt 192 -160)
-)
-(connector
-	(text "clock_50" (rect 185 -176 251 -162)(font "Arial" ))
-	(pt 192 -160)
-	(pt 224 -160)
-)
-(connector
 	(pt 184 384)
 	(pt 192 384)
 )
@@ -1158,13 +1125,31 @@ agreement for further details.
 	(pt 1000 0)
 )
 (connector
-	(text "nloada_opa" (rect 848 -54 862 28)(font "Arial" )(vertical))
+	(pt 208 -48)
+	(pt 184 -48)
+)
+(connector
+	(pt 184 104)
+	(pt 200 104)
+)
+(connector
+	(pt 184 256)
+	(pt 200 256)
+)
+(connector
+	(text "clock_50" (rect 233 -176 299 -162)(font "Arial" ))
+	(pt 192 -160)
+	(pt 272 -160)
+)
+(connector
+	(pt 784 32)
+	(pt 864 32)
+	(bus)
+)
+(connector
+	(text "nloada_opa" (rect 864 -22 878 60)(font "Arial" )(vertical))
 	(pt 864 -8)
 	(pt 864 32)
 	(bus)
 )
-(junction (pt 184 -48))
-(junction (pt 192 -160))
-(junction (pt 184 104))
-(junction (pt 184 256))
 (junction (pt 192 384))

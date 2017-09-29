@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Arria II GX"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY ula
+set_global_assignment -name TOP_LEVEL_ENTITY ula_com_memoria
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:34:49  SEPTEMBER 05, 2017"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.1.0

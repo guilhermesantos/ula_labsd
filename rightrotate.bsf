@@ -27,8 +27,8 @@ agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "b[0..7]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
-		(text "b[0..7]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 0 0 66 16)(font "Arial" (font_size 8)))
+		(text "b[7..0]" (rect 21 27 87 43)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port

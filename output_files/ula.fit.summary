@@ -1,4 +1,4 @@
-Fitter Status : Successful - Tue Sep 26 17:24:56 2017
+Fitter Status : Successful - Fri Sep 29 14:55:14 2017
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 Revision Name : ula
 Top-level Entity Name : ula
@@ -6,7 +6,7 @@ Family : Arria II GX
 Device : EP2AGX45CU17I3
 Timing Models : Final
 Logic utilization : < 1 %
-    Combinational ALUTs : 113 / 36,100 ( < 1 % )
+    Combinational ALUTs : 104 / 36,100 ( < 1 % )
     Memory ALUTs : 0 / 18,050 ( 0 % )
     Dedicated logic registers : 0 / 36,100 ( 0 % )
 Total registers : 0

@@ -1,10 +1,10 @@
-Analysis & Synthesis Status : Successful - Tue Sep 26 17:24:36 2017
+Analysis & Synthesis Status : Successful - Fri Sep 29 14:54:50 2017
 Quartus Prime Version : 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 Revision Name : ula
 Top-level Entity Name : ula
 Family : Arria II GX
 Logic utilization : N/A
-    Combinational ALUTs : 113
+    Combinational ALUTs : 104
     Memory ALUTs : 0
     Dedicated logic registers : 0
 Total registers : 0

@@ -1,5 +1,5 @@
 EDA Netlist Writer report for ula
-Tue Sep 26 17:25:31 2017
+Fri Sep 29 14:55:55 2017
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -37,7 +37,7 @@ agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Tue Sep 26 17:25:31 2017 ;
+; EDA Netlist Writer Status ; Successful - Fri Sep 29 14:55:55 2017 ;
 ; Revision Name             ; ula                                   ;
 ; Top-level Entity Name     ; ula                                   ;
 ; Family                    ; Arria II GX                           ;
@@ -89,7 +89,7 @@ agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Tue Sep 26 17:25:30 2017
+    Info: Processing started: Fri Sep 29 14:55:53 2017
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off ula -c ula
 Info (204019): Generated file ula_3_900mv_100c_slow.vho in folder "D:/Documents/projetos/quartus_workspace/ula/simulation/modelsim/" for EDA simulation tool
 Info (204019): Generated file ula_3_900mv_-40c_slow.vho in folder "D:/Documents/projetos/quartus_workspace/ula/simulation/modelsim/" for EDA simulation tool
@@ -101,8 +101,8 @@ Info (204019): Generated file ula_min_900mv_-40c_vhd_fast.sdo in folder "D:/Docu
 Info (204019): Generated file ula_vhd.sdo in folder "D:/Documents/projetos/quartus_workspace/ula/simulation/modelsim/" for EDA simulation tool
 Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 769 megabytes
-    Info: Processing ended: Tue Sep 26 17:25:31 2017
-    Info: Elapsed time: 00:00:01
+    Info: Processing ended: Fri Sep 29 14:55:55 2017
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
 

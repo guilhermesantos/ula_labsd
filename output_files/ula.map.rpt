@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ula
-Tue Sep 26 17:24:36 2017
+Fri Sep 29 14:54:50 2017
 Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
 
 
@@ -45,13 +45,13 @@ agreement for further details.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Tue Sep 26 17:24:36 2017       ;
+; Analysis & Synthesis Status       ; Successful - Fri Sep 29 14:54:50 2017       ;
 ; Quartus Prime Version             ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
 ; Revision Name                     ; ula                                         ;
 ; Top-level Entity Name             ; ula                                         ;
 ; Family                            ; Arria II GX                                 ;
 ; Logic utilization                 ; N/A                                         ;
-;     Combinational ALUTs           ; 113                                         ;
+;     Combinational ALUTs           ; 104                                         ;
 ;     Memory ALUTs                  ; 0                                           ;
 ;     Dedicated logic registers     ; 0                                           ;
 ; Total registers                   ; 0                                           ;
@@ -206,31 +206,31 @@ agreement for further details.
 +-----------------------------------------------+--------------+
 ; Resource                                      ; Usage        ;
 +-----------------------------------------------+--------------+
-; Estimated ALUTs Used                          ; 113          ;
-;     -- Combinational ALUTs                    ; 113          ;
+; Estimated ALUTs Used                          ; 104          ;
+;     -- Combinational ALUTs                    ; 104          ;
 ;     -- Memory ALUTs                           ; 0            ;
 ;     -- LUT_REGs                               ; 0            ;
 ; Dedicated logic registers                     ; 0            ;
 ;                                               ;              ;
-; Estimated ALUTs Unavailable                   ; 52           ;
-;     -- Due to unpartnered combinational logic ; 52           ;
+; Estimated ALUTs Unavailable                   ; 44           ;
+;     -- Due to unpartnered combinational logic ; 44           ;
 ;     -- Due to Memory ALUTs                    ; 0            ;
 ;                                               ;              ;
-; Total combinational functions                 ; 113          ;
+; Total combinational functions                 ; 104          ;
 ; Combinational ALUT usage by number of inputs  ;              ;
-;     -- 7 input functions                      ; 11           ;
-;     -- 6 input functions                      ; 41           ;
-;     -- 5 input functions                      ; 17           ;
-;     -- 4 input functions                      ; 24           ;
-;     -- <=3 input functions                    ; 20           ;
+;     -- 7 input functions                      ; 10           ;
+;     -- 6 input functions                      ; 34           ;
+;     -- 5 input functions                      ; 20           ;
+;     -- 4 input functions                      ; 23           ;
+;     -- <=3 input functions                    ; 17           ;
 ;                                               ;              ;
 ; Combinational ALUTs by mode                   ;              ;
-;     -- normal mode                            ; 102          ;
-;     -- extended LUT mode                      ; 11           ;
+;     -- normal mode                            ; 94           ;
+;     -- extended LUT mode                      ; 10           ;
 ;     -- arithmetic mode                        ; 0            ;
 ;     -- shared arithmetic mode                 ; 0            ;
 ;                                               ;              ;
-; Estimated ALUT/register pairs used            ; 165          ;
+; Estimated ALUT/register pairs used            ; 148          ;
 ;                                               ;              ;
 ; Total registers                               ; 0            ;
 ;     -- Dedicated logic registers              ; 0            ;
@@ -243,9 +243,9 @@ agreement for further details.
 ; DSP block 18-bit elements                     ; 0            ;
 ;                                               ;              ;
 ; Maximum fan-out node                          ; sel[0]~input ;
-; Maximum fan-out                               ; 36           ;
-; Total fan-out                                 ; 597          ;
-; Average fan-out                               ; 3.53         ;
+; Maximum fan-out                               ; 39           ;
+; Total fan-out                                 ; 547          ;
+; Average fan-out                               ; 3.42         ;
 +-----------------------------------------------+--------------+
 
 
@@ -254,7 +254,7 @@ agreement for further details.
 +--------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node     ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name                                           ; Library Name ;
 +--------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
-; |ula                           ; 113 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 28   ; 0            ; |ula                                                          ; work         ;
+; |ula                           ; 104 (0)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 28   ; 0            ; |ula                                                          ; work         ;
 ;    |8bitadder:inst5|           ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitadder:inst5                                          ; work         ;
 ;       |1bitfulladder:inst1|    ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitadder:inst5|1bitfulladder:inst1                      ; work         ;
 ;       |1bitfulladder:inst2|    ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitadder:inst5|1bitfulladder:inst2                      ; work         ;
@@ -272,9 +272,10 @@ agreement for further details.
 ;          |1bitfulladder:inst5| ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitsubtractor:inst6|8bitadder:inst2|1bitfulladder:inst5 ; work         ;
 ;          |1bitfulladder:inst7| ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitsubtractor:inst6|8bitadder:inst2|1bitfulladder:inst7 ; work         ;
 ;          |1bitfulladder:inst|  ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|8bitsubtractor:inst6|8bitadder:inst2|1bitfulladder:inst  ; work         ;
-;    |leftarithshifter:inst12|   ; 1 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftarithshifter:inst12                                  ; work         ;
+;    |leftarithshifter:inst12|   ; 2 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftarithshifter:inst12                                  ; work         ;
 ;       |2to1mux:inst45|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftarithshifter:inst12|2to1mux:inst45                   ; work         ;
-;    |leftlogicshifter:inst7|    ; 13 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7                                   ; work         ;
+;       |2to1mux:inst51|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftarithshifter:inst12|2to1mux:inst51                   ; work         ;
+;    |leftlogicshifter:inst7|    ; 12 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7                                   ; work         ;
 ;       |2to1mux:inst39|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst39                    ; work         ;
 ;       |2to1mux:inst40|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst40                    ; work         ;
 ;       |2to1mux:inst41|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst41                    ; work         ;
@@ -283,41 +284,32 @@ agreement for further details.
 ;       |2to1mux:inst44|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst44                    ; work         ;
 ;       |2to1mux:inst48|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst48                    ; work         ;
 ;       |2to1mux:inst49|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst49                    ; work         ;
-;       |2to1mux:inst50|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst50                    ; work         ;
+;       |2to1mux:inst50|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|2to1mux:inst50                    ; work         ;
 ;       |8to3encoder:inst|       ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftlogicshifter:inst7|8to3encoder:inst                  ; work         ;
 ;    |leftrotate:inst9|          ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftrotate:inst9                                         ; work         ;
 ;       |2to1mux:inst44|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftrotate:inst9|2to1mux:inst44                          ; work         ;
 ;       |2to1mux:inst45|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftrotate:inst9|2to1mux:inst45                          ; work         ;
 ;       |2to1mux:inst46|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|leftrotate:inst9|2to1mux:inst46                          ; work         ;
-;    |lpm_mux:inst16|            ; 46 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|lpm_mux:inst16                                           ; work         ;
-;       |mux_u5e:auto_generated| ; 46 (46)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|lpm_mux:inst16|mux_u5e:auto_generated                    ; work         ;
-;    |rightarithshifter:inst11|  ; 4 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11                                 ; work         ;
-;       |2to1mux:inst45|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst45                  ; work         ;
-;       |2to1mux:inst48|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst48                  ; work         ;
-;       |2to1mux:inst49|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst49                  ; work         ;
-;       |2to1mux:inst50|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst50                  ; work         ;
-;    |rightlogicshifter:inst8|   ; 13 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8                                  ; work         ;
-;       |2to1mux:inst39|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst39                   ; work         ;
-;       |2to1mux:inst40|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst40                   ; work         ;
-;       |2to1mux:inst41|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst41                   ; work         ;
+;    |lpm_mux:inst16|            ; 49 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|lpm_mux:inst16                                           ; work         ;
+;       |mux_u5e:auto_generated| ; 49 (49)           ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|lpm_mux:inst16|mux_u5e:auto_generated                    ; work         ;
+;    |rightarithshifter:inst11|  ; 3 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11                                 ; work         ;
+;       |2to1mux:inst44|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst44                  ; work         ;
+;       |2to1mux:inst45|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightarithshifter:inst11|2to1mux:inst45                  ; work         ;
+;    |rightlogicshifter:inst8|   ; 6 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8                                  ; work         ;
 ;       |2to1mux:inst43|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst43                   ; work         ;
 ;       |2to1mux:inst44|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst44                   ; work         ;
-;       |2to1mux:inst48|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst48                   ; work         ;
-;       |2to1mux:inst49|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst49                   ; work         ;
-;       |2to1mux:inst50|         ; 2 (2)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst50                   ; work         ;
+;       |2to1mux:inst45|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst45                   ; work         ;
 ;       |2to1mux:inst51|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst51                   ; work         ;
 ;       |2to1mux:inst52|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst52                   ; work         ;
 ;       |2to1mux:inst53|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightlogicshifter:inst8|2to1mux:inst53                   ; work         ;
-;    |rightrotate:inst10|        ; 11 (0)            ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10                                       ; work         ;
+;    |rightrotate:inst10|        ; 7 (0)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10                                       ; work         ;
 ;       |2to1mux:inst39|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst39                        ; work         ;
 ;       |2to1mux:inst40|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst40                        ; work         ;
 ;       |2to1mux:inst41|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst41                        ; work         ;
 ;       |2to1mux:inst42|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst42                        ; work         ;
-;       |2to1mux:inst43|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst43                        ; work         ;
 ;       |2to1mux:inst44|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst44                        ; work         ;
 ;       |2to1mux:inst45|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst45                        ; work         ;
 ;       |2to1mux:inst46|         ; 1 (1)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|2to1mux:inst46                        ; work         ;
-;       |8to3encoder:inst|       ; 3 (3)             ; 0 (0)        ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 0    ; 0            ; |ula|rightrotate:inst10|8to3encoder:inst                      ; work         ;
 +--------------------------------+-------------------+--------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -342,12 +334,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                      ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
-; 3:1                ; 3 bits    ; 6 ALUTs       ; 6 ALUTs              ; 0 ALUTs                ; No         ; |ula|rightlogicshifter:inst8|2to1mux:inst43|inst4               ;
-; 3:1                ; 2 bits    ; 4 ALUTs       ; 4 ALUTs              ; 0 ALUTs                ; No         ; |ula|leftrotate:inst9|2to1mux:inst44|inst4                      ;
-; 4:1                ; 4 bits    ; 8 ALUTs       ; 8 ALUTs              ; 0 ALUTs                ; No         ; |ula|leftlogicshifter:inst7|2to1mux:inst41|inst4                ;
-; 4:1                ; 8 bits    ; 16 ALUTs      ; 16 ALUTs             ; 0 ALUTs                ; No         ; |ula|rightrotate:inst10|2to1mux:inst44|inst4                    ;
-; 4:1                ; 7 bits    ; 14 ALUTs      ; 14 ALUTs             ; 0 ALUTs                ; No         ; |ula|lpm_mux:inst16|mux_u5e:auto_generated|l1_w6_n6_mux_dataout ;
+; 3:1                ; 4 bits    ; 8 ALUTs       ; 8 ALUTs              ; 0 ALUTs                ; No         ; |ula|rightrotate:inst10|2to1mux:inst42|inst4                    ;
+; 3:1                ; 4 bits    ; 8 ALUTs       ; 8 ALUTs              ; 0 ALUTs                ; No         ; |ula|rightrotate:inst10|2to1mux:inst45|inst4                    ;
+; 4:1                ; 8 bits    ; 16 ALUTs      ; 16 ALUTs             ; 0 ALUTs                ; No         ; |ula|leftlogicshifter:inst7|2to1mux:inst39|inst4                ;
+; 4:1                ; 8 bits    ; 16 ALUTs      ; 16 ALUTs             ; 0 ALUTs                ; No         ; |ula|lpm_mux:inst16|mux_u5e:auto_generated|l1_w5_n6_mux_dataout ;
 ; 14:1               ; 3 bits    ; 27 ALUTs      ; 27 ALUTs             ; 0 ALUTs                ; No         ; |ula|lpm_mux:inst16|mux_u5e:auto_generated|l4_w6_n0_mux_dataout ;
+; 15:1               ; 3 bits    ; 30 ALUTs      ; 27 ALUTs             ; 3 ALUTs                ; No         ; |ula|lpm_mux:inst16|mux_u5e:auto_generated|l4_w3_n0_mux_dataout ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------------------------------------+
 
 
@@ -376,18 +368,18 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 28                          ;
-; stratixiv_lcell_comb  ; 113                         ;
-;     extend            ; 11                          ;
-;         7 data inputs ; 11                          ;
-;     normal            ; 102                         ;
-;         2 data inputs ; 3                           ;
-;         3 data inputs ; 17                          ;
-;         4 data inputs ; 24                          ;
-;         5 data inputs ; 17                          ;
-;         6 data inputs ; 41                          ;
+; stratixiv_lcell_comb  ; 104                         ;
+;     extend            ; 10                          ;
+;         7 data inputs ; 10                          ;
+;     normal            ; 94                          ;
+;         2 data inputs ; 6                           ;
+;         3 data inputs ; 11                          ;
+;         4 data inputs ; 23                          ;
+;         5 data inputs ; 20                          ;
+;         6 data inputs ; 34                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 7.00                        ;
-; Average LUT depth     ; 4.97                        ;
+; Average LUT depth     ; 5.15                        ;
 +-----------------------+-----------------------------+
 
 
@@ -406,7 +398,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
-    Info: Processing started: Tue Sep 26 17:24:18 2017
+    Info: Processing started: Fri Sep 29 14:54:29 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ula -c ula
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file 1bitfulladder.bdf
@@ -513,14 +505,14 @@ Info (12128): Elaborating entity "rightrotate" for hierarchy "rightrotate:inst10
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 141 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 132 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 8 output pins
-    Info (21061): Implemented 113 logic cells
+    Info (21061): Implemented 104 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 848 megabytes
-    Info: Processing ended: Tue Sep 26 17:24:36 2017
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:41
+    Info: Peak virtual memory: 847 megabytes
+    Info: Processing ended: Fri Sep 29 14:54:50 2017
+    Info: Elapsed time: 00:00:21
+    Info: Total CPU time (on all processors): 00:00:45
 
 
